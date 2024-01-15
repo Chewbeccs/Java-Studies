@@ -19,8 +19,7 @@ public class Program {
         else{
             System.out.println("Não são multiplos");
         }
-
-
+        
         sc.close();
     }
 }
