@@ -23,11 +23,8 @@ public class Program {
             y.a = sc.nextDouble();
             y.b = sc.nextDouble();
             y.c = sc.nextDouble();
-
-            double p = (x.a + x.b + x.c) / 2.0;
+           
             double areaX = x.area();
-
-
             double areaY = y.area();
 
             System.out.printf("Triangle X area: %.4f%n", areaX);
