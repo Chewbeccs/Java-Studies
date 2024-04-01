@@ -11,6 +11,10 @@ public class Employee {
         return net;
     }
 
+    public void increaseSalary(double percentage) {
+        grossSalary += grossSalary * percentage / 100.0;
+    }
+
     // sem esse metodo não é possivel imprimir os atributos da classe
     public String toString(){ 
         return 
@@ -19,7 +23,6 @@ public class Employee {
         + ", $"
         + String.format("%.2f", netSalary());
     } 
-
-   
+    
 
 }

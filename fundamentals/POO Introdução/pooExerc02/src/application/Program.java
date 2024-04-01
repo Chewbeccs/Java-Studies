@@ -22,7 +22,13 @@ public class Program {
         employee.tax = sc.nextDouble();
             
         System.out.println(employee);
+        System.out.println("Which percentage to increase salary? ");
+        double percentage = sc.nextDouble();
+        employee.increaseSalary(percentage);
 
+        System.out.println();
+        System.out.println("Updated data: " + employee);
+        
         sc.close();
     }
 }
